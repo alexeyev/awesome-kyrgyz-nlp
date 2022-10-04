@@ -8,11 +8,11 @@ If you want to contribute to this list (please do), send me a pull request.
 Also, a listed repository should be tagged as deprecated if:
 
 * Repository's owners explicitly say that "this library is not maintained".
-* Not committed for long time (2~3 years).
+* Not committed to for a long time (2~3 years).
 
 ## Table of Contents
 <!-- MarkdownTOC depth=3 -->
-- [Awesome Azeri NLP](#awesome-azeri-nlp)
+- [Awesome Kyrgyz NLP](#awesome-kyrgyz-nlp)
   - [Table of Contents](#table-of-contents)
   - [Datasets](#data)
   - [Pretrained models](#pretrained-models)
