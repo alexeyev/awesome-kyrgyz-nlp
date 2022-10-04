@@ -1,7 +1,9 @@
 #!/bin/bash
 # Based on: https://towardsdatascience.com/pre-processing-a-wikipedia-dump-for-nlp-model-training-a-write-up-3b9176fdf67
 
-LG="kg"
+LG="ky"
+
+rm -rf ${LG}wiki-latest-pages-articles.* wikiextractor
 
 WIKI_DUMP_NAME=${LG}wiki-latest-pages-articles.xml.bz2
 WIKI_DUMP_DOWNLOAD_URL=https://dumps.wikimedia.org/${LG}wiki/latest/$WIKI_DUMP_NAME
@@ -18,19 +20,22 @@ WIKI_DUMP_FILE_IN=$WIKI_DUMP_NAME
 WIKI_DUMP_FILE_OUT=${WIKI_DUMP_FILE_IN%%.*}.txt
 
 # clone the WikiExtractor repository
-git clone https://github.com/attardi/wikiextractor.git
+python -m pip install wikiextractor==3.0.4
+
 
 # extract and clean the chosen Wikipedia dump
 echo "Extracting and cleaning $WIKI_DUMP_FILE_IN to $WIKI_DUMP_FILE_OUT..."
 
-cd wikiextractor && python3 wikiextractor/WikiExtractor.py ../$WIKI_DUMP_FILE_IN --processes 8 -q -o - \
+python -m wikiextractor.WikiExtractor $WIKI_DUMP_FILE_IN --processes 8 -q -o - \
 | sed "/^\s*\$/d" \
 | grep -v "^<doc id=" \
 | grep -v "</doc>\$" \
-> ../$WIKI_DUMP_FILE_OUT
+> $WIKI_DUMP_FILE_OUT
 echo "Succesfully extracted and cleaned $WIKI_DUMP_FILE_IN to $WIKI_DUMP_FILE_OUT"
 
 ###########################################################################################
 ###########################################################################################
 
 python3 bling_split.py $WIKI_DUMP_FILE_OUT
+
+rm ${LG}wiki-latest-pages-articles.*
