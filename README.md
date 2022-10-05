@@ -26,8 +26,10 @@ Also, a listed repository should be tagged as deprecated if:
 <a name="data"></a>
 ## Datasets
 
+* [kkWaC](https://www.sketchengine.eu/kywac-kyrgyz-corpus/): Kyrgyz corpus from the web, 19M words, Jan 2012
+
 #### Raw text
-* TODO
+* [kloop corpus](https://github.com/kyrgyz-nlp/kloop-corpus): 16'826 articles (sqlite3 DB file) + crawler code
 
 **Several corpora are also mentioned in research works:**
 * TODO
@@ -36,17 +38,8 @@ Also, a listed repository should be tagged as deprecated if:
 * [UD project comments](https://universaldependencies.org/tr/) on difficulties in Turkish language processing, might bring light to the question why parsing Kyrgyz is hard as well
 
 #### Machine-readable dictionaries
-TODO
+* [Country names table](https://github.com/kyrgyz-nlp/country_names/blob/main/country_names_in_kyrgyz.tsv): Kyrgyz-Russian-English
 
-#### Summarization
-* TODO
-
-#### Translation
-* TODO
-
-#### Sentiment
-Mentioned in:
-* 
 
 <a name="pretrained-models"></a>
 ## Pretrained models
@@ -58,7 +51,7 @@ Mentioned in:
 ## Methods/Software
 
 #### Morphology <a name="morphology-s"></a>
-* TODO
+* [deprecated] [kymopl](https://github.com/dens-den/kymopl): Kyrguz morphology in Prolog
 
 **Mentioned in papers:**
 * TODO
