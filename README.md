@@ -44,11 +44,13 @@ Also, a listed repository should be tagged as deprecated if:
 <a name="pretrained-models"></a>
 ## Pretrained models
 * TODO [Polyglot morfessor](https://github.com/aboSamoor/polyglot/blob/master/docs/MorphologicalAnalysis.rst) —  pretrained [morfessor](http://www.cis.hut.fi/cis/projects/morpho/) model, number TODO
-* TODO [fastText](https://fasttext.cc/docs/en/crawl-vectors.html) — 300-dimensional fastText vectors provided by the authors
+* TODO [fastText](https://fasttext.cc/docs/en/crawl-vectors.html) — 300-dimensional fastText vectors provided by the authors: [bin](https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.ky.300.bin.gz), [txt](https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.ky.300.vec.gz).
 
 
 <a name="software"></a>
 ## Methods/Software
+
+* [spaCy](https://github.com/explosion/spaCy/tree/master/spacy/lang/ky) basic support: tokenization, stopwords, `like_num`
 
 #### Morphology <a name="morphology-s"></a>
 * [deprecated] [kymopl](https://github.com/dens-den/kymopl): Kyrguz morphology in Prolog
@@ -59,10 +61,14 @@ Also, a listed repository should be tagged as deprecated if:
 #### Syntax <a name="syntax-s"></a>
 * TODO
 
+#### Other
+* [Number-to-words conversion](https://github.com/AzamatSoodaev/number-to-words-kg) (JavaScript) by [@AzamatSooldaev](https://github.com/AzamatSoodaev)
+
 <a name="demos"></a>
 ## Online Demos
 * TODO
 
 <a name="misc"></a>
 ## Miscellaneous
+* A useful [Apertium](https://wiki.apertium.org/wiki/Kyrgyz)'s list of tools and other resources
 * [Turkic languages-related resources](http://ddi.itu.edu.tr/en/toolsandresources) compiled by Dr. Gülşen Eryiğit and her team at Istanbul Technical University 
