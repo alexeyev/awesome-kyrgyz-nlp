@@ -59,6 +59,9 @@ Also, a listed repository should be tagged as deprecated if:
 **Mentioned in papers:**
 * TODO
 
+## Hate Speech detection
+* [Jupyter Notebook for hate speech detection](https://github.com/kyrgyz-nlp/hate-speech-examples)
+
 #### Syntax <a name="syntax-s"></a>
 * TODO
 
@@ -71,9 +74,10 @@ Also, a listed repository should be tagged as deprecated if:
 
 <a name="demos"></a>
 ## Online Demos
-* TODO
+* [Cyrillic-to-Latin online converter](http://www.transliteration.kpr.eu/ky/) based on [this resource](https://www.qyrgyz.com/post/kakoy-budet-kyrgyzskaya-latinitsa).
 
 <a name="misc"></a>
 ## Miscellaneous
 * A useful [Apertium](https://wiki.apertium.org/wiki/Kyrgyz)'s list of tools and other resources
+* Online dictionaries and other useful resources on [el-sozduk.kg](https://el-sozduk.kg/)
 * [Turkic languages-related resources](http://ddi.itu.edu.tr/en/toolsandresources) compiled by Dr. Gülşen Eryiğit and her team at Istanbul Technical University 
