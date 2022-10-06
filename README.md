@@ -78,6 +78,7 @@ Also, a listed repository should be tagged as deprecated if:
 
 <a name="misc"></a>
 ## Miscellaneous
+* [Turkic Interlingua](https://github.com/turkic-interlingua) community and [SIGTURK](https://github.com/sigturk/) (ACL Turkic languages special interest group)
 * A useful [Apertium](https://wiki.apertium.org/wiki/Kyrgyz)'s list of tools and other resources
 * Online dictionaries and other useful resources on [el-sozduk.kg](https://el-sozduk.kg/)
 * [Turkic languages-related resources](http://ddi.itu.edu.tr/en/toolsandresources) compiled by Dr. Gülşen Eryiğit and her team at Istanbul Technical University 
