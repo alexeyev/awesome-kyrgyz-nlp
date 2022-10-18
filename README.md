@@ -36,17 +36,14 @@ Also, a listed repository should be tagged as deprecated if:
 * [UD project comments](https://universaldependencies.org/tr/) on difficulties in Turkish language processing, might bring light to the question why parsing Kyrgyz is hard as well
 
 #### Machine-readable dictionaries
-TODO
+
+* Thesaurus [KyrSpell](http://kyrgyzorfo.narod.ru/) (however, unpacking it seems to break the license)
 
 #### Summarization
 * TODO
 
 #### Translation
 * TODO
-
-#### Sentiment
-Mentioned in:
-* 
 
 <a name="pretrained-models"></a>
 ## Pretrained models

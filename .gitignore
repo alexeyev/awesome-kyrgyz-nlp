@@ -4,3 +4,5 @@ wiki*
 *.pyc
 *.txt
 *xml*
+download_news_other/
+*/metadata
