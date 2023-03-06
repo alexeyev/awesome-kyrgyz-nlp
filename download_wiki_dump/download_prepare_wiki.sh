@@ -19,8 +19,8 @@ echo "Succesfully downloaded the latest $LG-language Wikipedia dump to $WIKI_DUM
 WIKI_DUMP_FILE_IN=$WIKI_DUMP_NAME
 WIKI_DUMP_FILE_OUT=${WIKI_DUMP_FILE_IN%%.*}.txt
 
-# clone the WikiExtractor repository
-python -m pip install wikiextractor==3.0.4
+# installing required libs
+python -m pip install wikiextractor==3.0.4 blingfire==0.1.8
 
 
 # extract and clean the chosen Wikipedia dump
@@ -28,6 +28,9 @@ echo "Extracting and cleaning $WIKI_DUMP_FILE_IN to $WIKI_DUMP_FILE_OUT..."
 
 python -m wikiextractor.WikiExtractor $WIKI_DUMP_FILE_IN --processes 8 -q -o - \
 | sed "/^\s*\$/d" \
+| sed -e 's/\&quot;/"/g' \
+| sed -e 's/\&amp;/\&/g' \
+| sed -e 's/\&lt;[^\&]*\&gt;//g' \
 | grep -v "^<doc id=" \
 | grep -v "</doc>\$" \
 > $WIKI_DUMP_FILE_OUT
