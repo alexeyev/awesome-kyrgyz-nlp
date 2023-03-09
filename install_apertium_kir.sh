@@ -24,7 +24,10 @@ echo "Бул кыргызча морфологиялык талдоо" | apertiu
 
 # The expected results:
 #
-# ^Бул/бул<det><dem>/бул<prn><dem><nom>/бул<prn><dem><nom>+э<cop><aor><p3><pl>/бул<prn><dem><nom>+э<cop><aor><p3><sg>$ ^кыргызча/кыргызча<adv>/кыргызча<n><attr>/кыргызча<n><nom>/кыргызча<n><nom>+э<cop><aor><p3><pl>/кыргызча<n><nom>+э<cop><aor><p3><sg>/кыргыз<n><equ>/кыргыз<n><equ>+э<cop><aor><p3><pl>/кыргыз<n><equ>+э<cop><aor><p3><sg>$ ^морфологиялык/морфологиялык<adj>/морфологиялык<adj>+э<cop><aor><p3><pl>/морфологиялык<adj>+э<cop><aor><p3><sg>$ ^талдоо/талда<v><tv><ger><nom>/талда<v><tv><ger><nom>+э<cop><aor><p3><pl>/талда<v><tv><ger><nom>+э<cop><aor><p3><sg>$^./.<sent>$
+# ^Бул/бул<det><dem>/бул<prn><dem><nom>/бул<prn><dem><nom>+э<cop><aor><p3><pl>/бул<prn><dem><nom>+э<cop><aor><p3><sg>$
+#  ^кыргызча/кыргызча<adv>/кыргызча<n><attr>/кыргызча<n><nom>/кыргызча<n><nom>+э<cop><aor><p3><pl>/кыргызча<n><nom>+э<cop><aor><p3><sg>/кыргыз<n><equ>/кыргыз<n><equ>+э<cop><aor><p3><pl>/кыргыз<n><equ>+э<cop><aor><p3><sg>$
+#  ^морфологиялык/морфологиялык<adj>/морфологиялык<adj>+э<cop><aor><p3><pl>/морфологиялык<adj>+э<cop><aor><p3><sg>$
+#  ^талдоо/талда<v><tv><ger><nom>/талда<v><tv><ger><nom>+э<cop><aor><p3><pl>/талда<v><tv><ger><nom>+э<cop><aor><p3><sg>$^./.<sent>$
 #
 #[[SReading(baseform='бул', tags=['det', 'dem'])],
 # [SReading(baseform='бул', tags=['prn', 'dem', 'nom'])],
