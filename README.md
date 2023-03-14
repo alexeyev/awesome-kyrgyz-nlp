@@ -27,6 +27,7 @@ Also, a listed repository should be tagged as deprecated if:
 ## Datasets
 
 * [kkWaC](https://www.sketchengine.eu/kywac-kyrgyz-corpus/): Kyrgyz corpus from the web, 19M words, Jan 2012
+* [Kyrgyz in Leipzig Corpora Collecion](https://wortschatz.uni-leipzig.de/en/download/Kirghiz): Community data / Newscrawl (1M sentences) / Wikipedia (300K sentences)
 
 #### Raw text
 * [kloop corpus](https://github.com/kyrgyz-nlp/kloop-corpus): 16'826 articles (sqlite3 DB file) + crawler code
