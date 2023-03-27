@@ -18,7 +18,6 @@ Also, a listed repository should be tagged as deprecated if:
   - [Pretrained models](#pretrained-models)
   - [Methods/Software](#software)
       - [Morphology](#morphology-s)
-      - [Syntax](#syntax-s)
   - [Online Demos](#demos)
   - [Miscellaneous](#misc)
 <!-- /MarkdownTOC -->
@@ -65,9 +64,6 @@ Also, a listed repository should be tagged as deprecated if:
 
 ## Hate Speech detection
 * [Jupyter Notebook for hate speech detection](https://github.com/kyrgyz-nlp/hate-speech-examples)
-
-#### Syntax <a name="syntax-s"></a>
-* TODO
 
 #### Other
 * [Tilchi](https://github.com/IncorexLLC/Tilchi) electronic Russian-Kyrgyz dictionary, open source desktop application
