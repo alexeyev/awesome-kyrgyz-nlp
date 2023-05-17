@@ -37,7 +37,7 @@ Also, a listed repository should be tagged as deprecated if:
 
 #### Syntax
 * [UD project comments](https://universaldependencies.org/tr/) on difficulties in Turkish language processing, might bring light to the question why parsing Kyrgyz is hard as well
-* [KTMU's UD Treebank, not published yet](https://github.com/UniversalDependencies/UD_Kyrgyz-KTMU)
+* [KTMU's UD Treebank, 781 sentences](https://github.com/UniversalDependencies/UD_Kyrgyz-KTMU)
 
 #### Machine-readable dictionaries
 * [Country names table](https://github.com/kyrgyz-nlp/country_names/blob/main/country_names_in_kyrgyz.tsv): Kyrgyz-Russian-English
