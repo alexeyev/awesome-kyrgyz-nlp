@@ -30,9 +30,7 @@ Also, a listed repository should be tagged as deprecated if:
 * [Verbal paradigms for Kyrgyz (100 Kyrgyz verbs fully conjugated in all tenses)](https://github.com/unimorph/kir) by Aytnatova Alima, annotation for Unimorph by E. Chodroff
 
 #### Character recognition
-* [Kyrgyz language hand-written letters (kyrgyz MNIST)](https://github.com/Akyl-AI/kyrgyz_MNIST): hand-written Kyrgyz alphabet letters collection for machine learning applications; original images have been transformed to 50x50 images and after to CSV format
-
-The repository currently consists of 80213 (50x50 pixel) images representing all 36 letters of the Kyrgyz alphabet These images have been hand-written.
+* [Kyrgyz language hand-written letters (Kyrgyz MNIST)](https://github.com/Akyl-AI/kyrgyz_MNIST): hand-written Kyrgyz alphabet letters collection for machine learning applications; original images (a total of 80213) have been transformed to 50x50 images, then to CSV format
 
 #### Raw text
 * [kloop corpus](https://github.com/kyrgyz-nlp/kloop-corpus): 16'826 articles (sqlite3 DB file) + crawler code
