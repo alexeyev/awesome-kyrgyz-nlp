@@ -56,7 +56,7 @@ Also, a listed repository should be tagged as deprecated if:
 * [spaCy](https://github.com/explosion/spaCy/tree/master/spacy/lang/ky) basic support: tokenization, stopwords, `like_num`
 
 #### Morphology <a name="morphology-s"></a>
-* [Kyrgyz for Apertium](https://github.com/apertium/apertium-kir/): morphological analysis and generation, PoS-tagging; installation script: [install_apertium_kir.sh](/install_apertium_kir.sh). A much, much easier way: `import apertium; apertium.installer.install_module("kir")`.
+* [Kyrgyz for Apertium](https://github.com/apertium/apertium-kir/): morphological analysis and generation, PoS-tagging; installation script: [install_apertium_kir.sh](/install_apertium_kir.sh). A [much, much easier way](https://github.com/apertium/apertium-python/): `import apertium; apertium.installer.install_module("kir")`.
 * [DEPRECATED] [kymopl](https://github.com/dens-den/kymopl): Kyrguz morphology in Prolog
 
 **Mentioned in papers:**
