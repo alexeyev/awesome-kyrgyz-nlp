@@ -86,4 +86,4 @@ Also, a listed repository should be tagged as deprecated if:
 
 ## Contributions to this list
 
-@golden-ratio
+[@golden-ratio](https://github.com/golden-ratio)
