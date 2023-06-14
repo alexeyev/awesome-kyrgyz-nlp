@@ -82,3 +82,8 @@ Also, a listed repository should be tagged as deprecated if:
 * A useful [Apertium](https://wiki.apertium.org/wiki/Kyrgyz)'s list of tools and other resources
 * Online dictionaries and other useful resources on [el-sozduk.kg](https://el-sozduk.kg/)
 * [Turkic languages-related resources](http://ddi.itu.edu.tr/en/toolsandresources) compiled by Dr. Gülşen Eryiğit and her team at Istanbul Technical University 
+
+
+## Contributions to this list
+
+@golden-ratio
