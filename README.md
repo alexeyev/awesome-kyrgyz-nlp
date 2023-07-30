@@ -27,6 +27,7 @@ Also, a listed repository should be tagged as deprecated if:
 
 * [kkWaC](https://www.sketchengine.eu/kywac-kyrgyz-corpus/): Kyrgyz corpus from the web, 19M words, Jan 2012
 * [Kyrgyz in Leipzig Corpora Collecion](https://wortschatz.uni-leipzig.de/en/download/Kirghiz): Community data / Newscrawl (1M sentences) / Wikipedia (300K sentences)
+* [TilCorpusu](https://tilcorpusu.org/): Kyrgyz corpus, 100M words, news+fiction, made public in July 2023
 * [Verbal paradigms for Kyrgyz (100 Kyrgyz verbs fully conjugated in all tenses)](https://github.com/unimorph/kir) by Aytnatova Alima, annotation for Unimorph by E. Chodroff
 
 #### Character recognition
@@ -48,6 +49,7 @@ Also, a listed repository should be tagged as deprecated if:
 ## Pretrained models
 * [Polyglot morfessor](https://github.com/aboSamoor/polyglot/blob/master/docs/MorphologicalAnalysis.rst) —  pretrained [morfessor](http://www.cis.hut.fi/cis/projects/morpho/) model, number 6
 * [fastText](https://fasttext.cc/docs/en/crawl-vectors.html) — 300-dimensional fastText vectors provided by the authors: [bin](https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.ky.300.bin.gz), [txt](https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.ky.300.vec.gz).
+* [compressed fastText](https://github.com/avidale/compress-fasttext) —  [fasttext-ky-mini](https://zenodo.org/record/4905385/files/fasttext-ky-mini?download=1) prepared by Liebl Bernhard in 2021.
 * [BERT-based NER](https://huggingface.co/murat/kyrgyz_language_NER) —  `bert-base-multilingual-cased` fine-tuned on Wikiann for NER on Kyrgyz. The author warns that this model is not usable and is built just as a proof of concept. Will be updated later.
 
 <a name="software"></a>
