@@ -36,13 +36,19 @@ Also, a listed repository should be tagged as deprecated if:
 #### Raw text
 * [kloop corpus](https://github.com/kyrgyz-nlp/kloop-corpus): 16'826 articles (sqlite3 DB file) + crawler code
 
-#### Syntax
+#### Morphology &amp; Syntax
 * [UD project comments](https://universaldependencies.org/tr/) on difficulties in Turkish language processing, might bring light to the question why parsing Kyrgyz is hard as well
 * [KTMU's UD Treebank, 781 sentences](https://github.com/UniversalDependencies/UD_Kyrgyz-KTMU)
 
 #### Named Entity Recognition
 * [WikiANN](https://huggingface.co/datasets/wikiann) has a Kyrgyz language part
 * [KyrgyzNER](https://github.com/Akyl-AI/KyrgyzNER): [not published yet]
+
+#### Text Classification
+* [Kyrgyz Multi-Label News Classification](https://github.com/alexeyev/kyrgyz-multi-label-topic-classification): [not published yet]
+
+#### Word Similarity Data
+* [Kyrgyz Word Embedding Evaluation](https://github.com/alexeyev/kyrgyz-embedding-evaluation): [not published yet]
 
 #### Machine-readable dictionaries
 * [Country names table](https://github.com/kyrgyz-nlp/country_names/blob/main/country_names_in_kyrgyz.tsv): Kyrgyz-Russian-English
