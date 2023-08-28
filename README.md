@@ -25,10 +25,12 @@ Also, a listed repository should be tagged as deprecated if:
 <a name="data"></a>
 ## Datasets
 
+#### Corpora
+
+* [Manas-UdS](http://fedora.clarin-d.uni-saarland.de/kyrgyz/index.html): 1.2M words, 84 literary texts, 5 genres: novel, novelette, epic, minor epic, and fairy tale; lemmata, PoS tags, rich per-text metadata.
 * [kkWaC](https://www.sketchengine.eu/kywac-kyrgyz-corpus/): Kyrgyz corpus from the web, 19M words, Jan 2012
 * [Kyrgyz in Leipzig Corpora Collecion](https://wortschatz.uni-leipzig.de/en/download/Kirghiz): Community data / Newscrawl (1M sentences) / Wikipedia (300K sentences)
 * [TilCorpusu](https://tilcorpusu.org/): Kyrgyz corpus, 100M words, news+fiction, made public in July 2023
-* [Verbal paradigms for Kyrgyz (100 Kyrgyz verbs fully conjugated in all tenses)](https://github.com/unimorph/kir) by Aytnatova Alima, annotation for Unimorph by E. Chodroff
 
 #### Character recognition
 * [Kyrgyz language hand-written letters (Kyrgyz MNIST)](https://github.com/Akyl-AI/kyrgyz_MNIST): hand-written Kyrgyz alphabet letters collection for machine learning applications; original images (a total of 80213) have been transformed to 50x50 images, then to CSV format
@@ -39,6 +41,7 @@ Also, a listed repository should be tagged as deprecated if:
 #### Morphology &amp; Syntax
 * [UD project comments](https://universaldependencies.org/tr/) on difficulties in Turkish language processing, might bring light to the question why parsing Kyrgyz is hard as well
 * [KTMU's UD Treebank, 781 sentences](https://github.com/UniversalDependencies/UD_Kyrgyz-KTMU)
+* [Verbal paradigms for Kyrgyz (100 Kyrgyz verbs fully conjugated in all tenses)](https://github.com/unimorph/kir) by Aytnatova Alima, annotation for Unimorph by E. Chodroff
 
 #### Named Entity Recognition
 * [WikiANN](https://huggingface.co/datasets/wikiann) has a Kyrgyz language part
