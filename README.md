@@ -56,7 +56,7 @@ Also, a listed repository should be tagged as deprecated if:
 #### Machine-readable dictionaries
 * [Country names table](https://github.com/kyrgyz-nlp/country_names/blob/main/country_names_in_kyrgyz.tsv): Kyrgyz-Russian-English
 * Thesaurus [KyrSpell](http://kyrgyzorfo.narod.ru/) (however, unpacking it seems to break the license)
-* [Tatu Ylonen's enwiktionary-based dictionary](https://kaikki.org/dictionary/Kyrgyz/index.html)
+* [Tatu Ylonen's enwiktionary-based dictionary](https://kaikki.org/dictionary/Kyrgyz/index.html) (also please see [the derived En-Ky Anki deck](https://ankiweb.net/shared/info/518863963) for language learners)
 
 
 <a name="pretrained-models"></a>
