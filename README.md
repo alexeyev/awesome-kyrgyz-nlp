@@ -53,6 +53,9 @@ Also, a listed repository should be tagged as deprecated if:
 #### Word Similarity Data
 * [Kyrgyz Word Embedding Evaluation](https://github.com/alexeyev/kyrgyz-embedding-evaluation): [not published yet]
 
+#### Instructions
+* [Machine-Translated Alpaca](https://github.com/Akyl-AI/kyrgyz-alpaca): [Stanford Alpaca](https://github.com/tatsu-lab/stanford_alpaca) instructions translated into Kyrgyz using ChatGPT and Google Translate
+
 #### Machine-readable dictionaries
 * [Country names table](https://github.com/kyrgyz-nlp/country_names/blob/main/country_names_in_kyrgyz.tsv): Kyrgyz-Russian-English
 * Thesaurus [KyrSpell](http://kyrgyzorfo.narod.ru/) (however, unpacking it seems to break the license)
