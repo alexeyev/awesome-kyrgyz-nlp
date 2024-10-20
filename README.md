@@ -41,6 +41,7 @@ Also, a listed repository should be tagged as deprecated if:
 #### Morphology &amp; Syntax
 * [UD project comments](https://universaldependencies.org/tr/) on difficulties in Turkish language processing, might bring light to the question why parsing Kyrgyz is hard as well
 * [KTMU's UD Treebank, 781 sentences](https://github.com/UniversalDependencies/UD_Kyrgyz-KTMU)
+* [Small UD Treebank: 145 sentences (incl. 20 Cairo sentences), and ~ 100 sentences suggested by UD Turkic Group; a part of UD Turkic Treebank](https://github.com/UniversalDependencies/UD_Kyrgyz-TueCL); also note that the translations to English, Azerbaijani and Turkish are available
 * [Verbal paradigms for Kyrgyz (100 Kyrgyz verbs fully conjugated in all tenses)](https://github.com/unimorph/kir) by Aytnatova Alima, annotation for Unimorph by E. Chodroff
 
 #### Named Entity Recognition
