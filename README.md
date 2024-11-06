@@ -77,10 +77,7 @@ Also, a listed repository should be tagged as deprecated if:
 
 #### Morphology <a name="morphology-s"></a>
 * [Kyrgyz for Apertium](https://github.com/apertium/apertium-kir/): morphological analysis and generation, PoS-tagging; installation script: [install_apertium_kir.sh](/install_apertium_kir.sh). A [much, much easier way](https://github.com/apertium/apertium-python/): `import apertium; apertium.installer.install_module("kir")`.
-* [DEPRECATED] [kymopl](https://github.com/dens-den/kymopl): Kyrguz morphology in Prolog
-
-**Mentioned in papers:**
-* TODO
+* [DEPRECATED] [kymopl](https://github.com/dens-den/kymopl): Kyrgyz morphology in Prolog
 
 ## Hate Speech detection
 * [Jupyter Notebook for hate speech detection](https://github.com/kyrgyz-nlp/hate-speech-examples)
@@ -98,6 +95,7 @@ Also, a listed repository should be tagged as deprecated if:
 
 <a name="misc"></a>
 ## Miscellaneous
+* Kyrgyz NLP bibliography: [kyrgyznlp.github.io](https://kyrgyznlp.github.io)
 * [Turkic Interlingua](https://github.com/turkic-interlingua) community and [SIGTURK](https://github.com/sigturk/) (ACL Turkic languages special interest group)
 * A useful [Apertium](https://wiki.apertium.org/wiki/Kyrgyz)'s list of tools and other resources
 * Online dictionaries and other useful resources on [el-sozduk.kg](https://el-sozduk.kg/)
