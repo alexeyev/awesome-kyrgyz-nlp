@@ -69,6 +69,7 @@ Also, a listed repository should be tagged as deprecated if:
 * [fastText](https://fasttext.cc/docs/en/crawl-vectors.html) — 300-dimensional fastText vectors provided by the authors: [bin](https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.ky.300.bin.gz), [txt](https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.ky.300.vec.gz).
 * [compressed fastText](https://github.com/avidale/compress-fasttext) —  [fasttext-ky-mini](https://zenodo.org/record/4905385/files/fasttext-ky-mini?download=1) prepared by Liebl Bernhard in 2021.
 * [BERT-based NER](https://huggingface.co/murat/kyrgyz_language_NER) —  `bert-base-multilingual-cased` fine-tuned on Wikiann for NER on Kyrgyz. The author warns that this model is not usable and is built just as a proof of concept. Will be updated later.
+* [Manas-GPT](https://github.com/janarosmonaliev/Manas-GPT/)  —  Janar Osmonaliev's fun personal project: training nanoGPT on Sayakbai Karalaev's version of Epic of Manas
 
 <a name="software"></a>
 ## Methods/Software
