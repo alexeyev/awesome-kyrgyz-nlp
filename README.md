@@ -75,6 +75,7 @@ Also, a listed repository should be tagged as deprecated if:
 ## Methods/Software
 
 * [spaCy](https://github.com/explosion/spaCy/tree/master/spacy/lang/ky) basic support: tokenization, stopwords, `like_num`
+* [stanza-ky](https://huggingface.co/stanfordnlp/stanza-ky) pipeline called 'ktmu'; use with care, seems to have a very suspicious brackets processing
 
 #### Morphology <a name="morphology-s"></a>
 * [Kyrgyz for Apertium](https://github.com/apertium/apertium-kir/): morphological analysis and generation, PoS-tagging; installation script: [install_apertium_kir.sh](/install_apertium_kir.sh). A [much, much easier way](https://github.com/apertium/apertium-python/): `import apertium; apertium.installer.install_module("kir")`.
