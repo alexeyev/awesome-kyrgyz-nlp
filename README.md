@@ -28,9 +28,10 @@ Also, a listed repository should be tagged as deprecated if:
 #### Corpora
 
 * [Manas-UdS](http://fedora.clarin-d.uni-saarland.de/kyrgyz/index.html): 1.2M words, 84 literary texts, 5 genres: novel, novelette, epic, minor epic, and fairy tale; lemmata, PoS tags, rich per-text metadata.
-* [kkWaC](https://www.sketchengine.eu/kywac-kyrgyz-corpus/): Kyrgyz corpus from the web, 19M words, Jan 2012
+* [kyWaC](https://www.sketchengine.eu/kywac-kyrgyz-corpus/): Kyrgyz corpus from the web, 19M words, Jan 2012 [not open]
 * [Kyrgyz in Leipzig Corpora Collecion](https://wortschatz.uni-leipzig.de/en/download/Kirghiz): Community data / Newscrawl (1M sentences) / Wikipedia (300K sentences)
 * **TilCorpusu**: Kyrgyz corpus, 100M words, news+fiction, made public in July 2023 (just the [News part](https://huggingface.co/datasets/the-cramer-project/Kyrgyz_News_Corpus) due to legal restrictions)
+* **TurkLang-7**: parallel corpora mentioned in the 2020 work 'First Results of the ``TurkLang-7'' Project: Creating Russian-Turkic Parallel Corpora and MT Systems' by Khusainov, A., Suleymanov, D., Gilmullin, R., Minsafina, A., Kubedinova, L., Abdurakhmonova, N. [status?]
 
 #### Character recognition
 * [Kyrgyz language hand-written letters (Kyrgyz MNIST)](https://github.com/Akyl-AI/kyrgyz_MNIST): hand-written Kyrgyz alphabet letters collection for machine learning applications; original images (a total of 80213) have been transformed to 50x50 images, then to CSV format
@@ -52,7 +53,7 @@ Also, a listed repository should be tagged as deprecated if:
 * [Kyrgyz Multi-Label News Classification](https://github.com/alexeyev/kyrgyz-multi-label-topic-classification): [not published yet]
 
 #### Word Similarity Data
-* [Kyrgyz Word Embedding Evaluation](https://github.com/alexeyev/kyrgyz-embedding-evaluation): [not published yet]
+* [Kyrgyz Word Embedding Evaluation](https://github.com/alexeyev/kyrgyz-embedding-evaluation): [not published yet]; the 2 best models have been [released](https://zenodo.org/records/14544743)
 
 #### Instructions
 * [Machine-Translated Alpaca](https://github.com/Akyl-AI/kyrgyz-alpaca): [Stanford Alpaca](https://github.com/tatsu-lab/stanford_alpaca) instructions translated into Kyrgyz using ChatGPT and Google Translate
