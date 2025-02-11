@@ -106,7 +106,7 @@ Also, a listed repository should be tagged as deprecated if:
 * A useful [Apertium](https://wiki.apertium.org/wiki/Kyrgyz)'s list of tools and other resources
 * Online dictionaries and other useful resources on [el-sozduk.kg](https://el-sozduk.kg/)
 * [Turkic languages-related resources](http://ddi.itu.edu.tr/en/toolsandresources) compiled by Dr. Gülşen Eryiğit and her team at Istanbul Technical University 
-* [Data prepared by CSLT](http://index.cslt.org/mediawiki/index.php/ASR-nsfc-data): 128h speech, 163 speakers (100m/63f), transcription of the speech audio, lexicon in the word level; [link](https://pan.baidu.com/s/18jxLKo4YRWH5K3GWPWmGXQ) (requires extra steps, quote: `You should ask for license before you can download the datasets. Please send Email to shiying@cslt.org or lilt@cslt.org to get the license.`)
+* [Data prepared by CSLT](http://index.cslt.org/mediawiki/index.php/ASR-nsfc-data): 128h speech, 163 speakers (100m/63f), transcription of the speech audio, lexicon in the word level; [link](https://pan.baidu.com/s/18jxLKo4YRWH5K3GWPWmGXQ) (requires extra steps, quote: `You should ask for license before you can download the datasets. Please send Email to shiying@cslt.org or lilt@cslt.org to get the license.`). Note that the original texts in Kyrgyz are not available, only the phonetic transcription is shared.
 
 ## Contributions to this list
 
