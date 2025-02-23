@@ -50,7 +50,7 @@ Also, a listed repository should be tagged as deprecated if:
 * [KyrgyzNER](https://github.com/Akyl-AI/KyrgyzNER): [not published yet]
 
 #### Text Classification
-* [Kyrgyz Multi-Label News Classification](https://github.com/alexeyev/kyrgyz-multi-label-topic-classification): the dataset of 1000/500 news documents is available
+* [Kyrgyz Multi-Label News Classification](https://github.com/alexeyev/kyrgyz-multi-label-topic-classification): training and evaluation code as well as the dataset of 1000/500 news documents are available
 
 #### Word Similarity Data
 * [Kyrgyz Word Embedding Evaluation](https://github.com/alexeyev/kyrgyz-embedding-evaluation): [not published yet]; the 2 best models have been [released](https://zenodo.org/records/14544743)
