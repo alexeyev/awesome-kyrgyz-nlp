@@ -73,6 +73,8 @@ Also, a listed repository should be tagged as deprecated if:
 * [fastText from Kuriyozov et al.'2020](https://zenodo.org/records/3666697) — trained on SketchEngine's KyWaC
 * [BERT-based NER](https://huggingface.co/murat/kyrgyz_language_NER) —  `bert-base-multilingual-cased` fine-tuned on Wikiann for NER on Kyrgyz. The author warns that this model is not usable and is built just as a proof of concept. Will be updated later.
 * [Manas-GPT](https://github.com/janarosmonaliev/Manas-GPT/)  —  Janar Osmonaliev's fun personal project: training nanoGPT on Sayakbai Karalaev's version of Epic of Manas
+* [kyrgyz-tokenizers-collection](https://huggingface.co/collections/metinovadilet/kyrgyz-tokenizers-collection-67bc7511855a6b996b94286c)  —  pre-trained subword tokenizers for Kyrgyz (by @metinovadilet)
+* [KyrgyzBert](https://huggingface.co/metinovadilet/KyrgyzBert) — BERT (6 encoders, 8 heads, hidden dim 512) trained on Kyrgyz texts (data is not available) **from scratch**  (by @metinovadilet)
 
 <a name="software"></a>
 ## Methods/Software
