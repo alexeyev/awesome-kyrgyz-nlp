@@ -47,7 +47,7 @@ Also, a listed repository should be tagged as deprecated if:
 
 #### Named Entity Recognition
 * [WikiANN](https://huggingface.co/datasets/wikiann) has a Kyrgyz language part
-* [KyrgyzNER](https://github.com/Akyl-AI/KyrgyzNER): [not published yet]
+* [KyrgyzNER](https://github.com/Akyl-AI/KyrgyzNER): 1'499 news articles from the 24.KG news portal, 10'900 sentences, 39'075 entity mentions, 27 named entity classes
 
 #### Text Classification
 * [Kyrgyz Multi-Label News Classification](https://github.com/alexeyev/kyrgyz-multi-label-topic-classification): training and evaluation code as well as the dataset of 1000/500 news documents are available
