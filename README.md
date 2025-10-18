@@ -31,7 +31,6 @@ Also, a listed repository should be tagged as deprecated if:
 * [kyWaC](https://www.sketchengine.eu/kywac-kyrgyz-corpus/): Kyrgyz corpus from the web, 19M words, Jan 2012 [not open]
 * [Kyrgyz in Leipzig Corpora Collecion](https://wortschatz.uni-leipzig.de/en/download/Kirghiz): Community data / Newscrawl (1M sentences) / Wikipedia (300K sentences)
 * **TilCorpusu**: Kyrgyz corpus, 100M words, news+fiction, made public in July 2023 (just the [News part](https://huggingface.co/datasets/the-cramer-project/Kyrgyz_News_Corpus) due to legal restrictions)
-* **TurkLang-7**: parallel corpora mentioned in the 2020 work 'First Results of the ``TurkLang-7'' Project: Creating Russian-Turkic Parallel Corpora and MT Systems' by Khusainov, A., Suleymanov, D., Gilmullin, R., Minsafina, A., Kubedinova, L., Abdurakhmonova, N. [status?]
 
 #### Character recognition
 * [Kyrgyz language hand-written letters (Kyrgyz MNIST)](https://github.com/Akyl-AI/kyrgyz_MNIST): hand-written Kyrgyz alphabet letters collection for machine learning applications; original images (a total of 80213) have been transformed to 50x50 images, then to CSV format
@@ -52,8 +51,9 @@ Also, a listed repository should be tagged as deprecated if:
 #### Text Classification
 * [Kyrgyz Multi-Label News Classification](https://github.com/alexeyev/kyrgyz-multi-label-topic-classification): training and evaluation code as well as the dataset of 1000/500 news documents are available
 
-#### Word Similarity Data
+#### Word Similarity and Word Sense Disambiguation
 * [Kyrgyz Word Embedding Evaluation](https://github.com/alexeyev/kyrgyz-embedding-evaluation): [not published yet]; the 2 best models have been [released](https://zenodo.org/records/14544743)
+* [kyrgyz-nlp/disambiguator](http://github.com/kyrgyz-nlp/disambiguator) project studies the ability of popular embedding models to select word senses based on the word hints (anchor words) [paper](https://ieeexplore.ieee.org/document/10804900/)
 
 #### Instructions
 * [Machine-Translated Alpaca](https://github.com/Akyl-AI/kyrgyz-alpaca): [Stanford Alpaca](https://github.com/tatsu-lab/stanford_alpaca) instructions translated into Kyrgyz using ChatGPT and Google Translate
@@ -63,9 +63,17 @@ Also, a listed repository should be tagged as deprecated if:
 * Thesaurus [KyrSpell](http://kyrgyzorfo.narod.ru/) (however, unpacking it seems to be an action violating the license)
 * [Tatu Ylonen's enwiktionary-based dictionary](https://kaikki.org/dictionary/Kyrgyz/index.html) (also please see [the derived En-Ky Anki deck](https://ankiweb.net/shared/info/518863963) for language learners)
 
+#### Machine Translation
+* **Kyrgyz Language Seed Dataset OLDI**, 6'193 Kyrgyz-English sentences: [github, experiments](https://www2.statmt.org/wmt25/pdf/2025.wmt-1.84.pdf) | [huggingface PR](https://huggingface.co/datasets/openlanguagedata/oldi_seed/discussions/4) | [WMT2025 paper](https://www2.statmt.org/wmt25/pdf/2025.wmt-1.84.pdf)
+* **TurkLang-7**, 426'190 Kyrgyz-Russian pairs (not publicly available): [paper](https://ceur-ws.org/Vol-2780/paper8.pdf)
+* **X-WMT**, 500 Kyrgyz-English translated pairs: [github, data](https://github.com/turkic-interlingua/til-mt) | [paper](https://aclanthology.org/2021.wmt-1.60/)
+* **NLLBv1** (use with care, e.g. non-Kyrgyz sentences detected!), 21'360'637 Kyrgyz-English pairs: [data](https://opus.nlpl.eu/NLLB/en&ky/v1/NLLB)
+* **GoURMET project** data, 14'498 Kyrgyz-English and 23'017 Kyrgyz-Russian sentences
+* FLORES+, professional translation, train:test 1012:997 sentences
 
 <a name="pretrained-models"></a>
 ## Pretrained models
+
 * [Polyglot morfessor](https://github.com/aboSamoor/polyglot/blob/master/docs/MorphologicalAnalysis.rst) —  pretrained [morfessor](http://www.cis.hut.fi/cis/projects/morpho/) model, number 6
 * [fastText](https://fasttext.cc/docs/en/crawl-vectors.html) — 300-dimensional fastText vectors provided by the authors: [bin](https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.ky.300.bin.gz), [txt](https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.ky.300.vec.gz).
 * [compressed fastText](https://github.com/avidale/compress-fasttext) — [fasttext-ky-mini](https://zenodo.org/record/4905385/files/fasttext-ky-mini?download=1) prepared by Liebl Bernhard in 2021.
@@ -81,7 +89,6 @@ Also, a listed repository should be tagged as deprecated if:
 
 * [spaCy](https://github.com/explosion/spaCy/tree/master/spacy/lang/ky) basic support: tokenization, stopwords, `like_num`
 * [stanza-ky](https://huggingface.co/stanfordnlp/stanza-ky) pipeline called 'ktmu'; use with care, seems to have a very suspicious brackets processing
-* [kyrgyz-nlp/disambiguator](http://github.com/kyrgyz-nlp/disambiguator) project studies the ability of popular embedding models to select word senses based on the word hints (anchor words)
 
 #### Morphology <a name="morphology-s"></a>
 * [Kyrgyz for Apertium](https://github.com/apertium/apertium-kir/): morphological analysis and generation, PoS-tagging; installation script: [install_apertium_kir.sh](/install_apertium_kir.sh). A [much, much easier way](https://github.com/apertium/apertium-python/): `import apertium; apertium.installer.install_module("kir")`.
