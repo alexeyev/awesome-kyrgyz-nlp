@@ -32,11 +32,14 @@ Also, a listed repository should be tagged as deprecated if:
 * [Kyrgyz in Leipzig Corpora Collecion](https://wortschatz.uni-leipzig.de/en/download/Kirghiz): Community data / Newscrawl (1M sentences) / Wikipedia (300K sentences)
 * **TilCorpusu**: Kyrgyz corpus, 100M words, news+fiction, made public in July 2023 (just the [News part](https://huggingface.co/datasets/the-cramer-project/Kyrgyz_News_Corpus) due to legal restrictions)
 
-#### Character recognition
-* [Kyrgyz language hand-written letters (Kyrgyz MNIST)](https://github.com/Akyl-AI/kyrgyz_MNIST): hand-written Kyrgyz alphabet letters collection for machine learning applications; original images (a total of 80213) have been transformed to 50x50 images, then to CSV format
-
 #### Raw text
 * [kloop corpus](https://github.com/kyrgyz-nlp/kloop-corpus): 16'826 articles (sqlite3 DB file) + crawler code
+  
+#### Character recognition
+* [Kyrgyz language hand-written letters (Kyrgyz MNIST)](https://github.com/Akyl-AI/kyrgyz_MNIST): hand-written Kyrgyz alphabet letters collection for machine learning applications; original images (a total of 80'213) have been transformed to 50x50 images, then to CSV format
+
+#### LLM Evaluation Data
+* [KyrgyzLLM-Bench](https://huggingface.co/collections/TTimur/kyrgyzllm-bench): *KyrgyzMMLU* (392 tasks) and *KyrgyzRC* (80 tasks) are the original datasets; GSM8K, HellaSwag, BoolQ, WinoGrande, and TruthfulQA are the translated and manually corrected versions of respective English-language datasets
 
 #### Morphology &amp; Syntax
 * [UD project comments](https://universaldependencies.org/tr/) on difficulties in Turkish language processing, might bring light to the question why parsing Kyrgyz is hard as well
