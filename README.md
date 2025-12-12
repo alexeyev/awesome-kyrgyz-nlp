@@ -29,7 +29,7 @@ Also, a listed repository should be tagged as deprecated if:
 
 * [Manas-UdS](http://fedora.clarin-d.uni-saarland.de/kyrgyz/index.html): 1.2M words, 84 literary texts, 5 genres: novel, novelette, epic, minor epic, and fairy tale; lemmata, PoS tags, rich per-text metadata.
 * [kyWaC](https://www.sketchengine.eu/kywac-kyrgyz-corpus/): Kyrgyz corpus from the web, 19M words, Jan 2012 [not open]
-* [Kyrgyz in Leipzig Corpora Collecion](https://wortschatz.uni-leipzig.de/en/download/Kirghiz): Community data / Newscrawl (1M sentences) / Wikipedia (300K sentences)
+* [Kyrgyz in Leipzig Corpora Collecion](https://wortschatz-leipzig.de/en/download/kir): Community data / Newscrawl (1M sentences) / Wikipedia (300K sentences)
 * **TilCorpusu**: Kyrgyz corpus, 100M words, news+fiction, made public in July 2023 (just the [News part](https://huggingface.co/datasets/the-cramer-project/Kyrgyz_News_Corpus) due to legal restrictions)
 
 #### Raw text
