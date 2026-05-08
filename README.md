@@ -18,8 +18,12 @@ Also, a listed repository should be tagged as deprecated if:
   - [Pretrained models](#pretrained-models)
   - [Methods/Software](#software)
       - [Morphology](#morphology-s)
+      - [Hate Speech detection](#hate-speech)
+      - [Spelling and orthography](#spelling)
+      - [Other](#other)
   - [Online Demos](#demos)
   - [Miscellaneous](#misc)
+  - [Contributions to this list](#contributions)
 <!-- /MarkdownTOC -->
 
 <a name="data"></a>
@@ -29,14 +33,14 @@ Also, a listed repository should be tagged as deprecated if:
 
 * [Manas-UdS](http://fedora.clarin-d.uni-saarland.de/kyrgyz/index.html): 1.2M words, 84 literary texts, 5 genres: novel, novelette, epic, minor epic, and fairy tale; lemmata, PoS tags, rich per-text metadata.
 * [kyWaC](https://www.sketchengine.eu/kywac-kyrgyz-corpus/): Kyrgyz corpus from the web, 19M words, Jan 2012 [not open]
-* [Kyrgyz in Leipzig Corpora Collecion](https://wortschatz-leipzig.de/en/download/kir): Community data / Newscrawl (1M sentences) / Wikipedia (300K sentences)
+* [Kyrgyz in Leipzig Corpora Collection](https://wortschatz-leipzig.de/en/download/kir): Community data / Newscrawl (1M sentences) / Wikipedia (300K sentences)
 * **TilCorpusu**: Kyrgyz corpus, 100M words, news+fiction, made public in July 2023 (just the [News part](https://huggingface.co/datasets/the-cramer-project/Kyrgyz_News_Corpus) due to legal restrictions)
 
 #### Raw text
-* [kloop corpus](https://github.com/kyrgyz-nlp/kloop-corpus): 16'826 articles (sqlite3 DB file) + crawler code
+* [kloop corpus](https://github.com/kyrgyz-nlp/kloop-corpus): 16,826 articles (sqlite3 DB file) + crawler code
   
 #### Character recognition
-* [Kyrgyz language hand-written letters (Kyrgyz MNIST)](https://github.com/Akyl-AI/kyrgyz_MNIST): hand-written Kyrgyz alphabet letters collection for machine learning applications; original images (a total of 80'213) have been transformed to 50x50 images, then to CSV format
+* [Kyrgyz language hand-written letters (Kyrgyz MNIST)](https://github.com/Akyl-AI/kyrgyz_MNIST): hand-written Kyrgyz alphabet letters collection for machine learning applications; original images (a total of 80,213) have been transformed to 50x50 images, then to CSV format
 
 #### LLM Evaluation Data
 * [KyrgyzLLM-Bench](https://huggingface.co/collections/TTimur/kyrgyzllm-bench): *KyrgyzMMLU* (392 tasks) and *KyrgyzRC* (80 tasks) are the original datasets; GSM8K, HellaSwag, BoolQ, WinoGrande, and TruthfulQA are the translated and manually corrected versions of respective English-language datasets
@@ -49,7 +53,7 @@ Also, a listed repository should be tagged as deprecated if:
 
 #### Named Entity Recognition
 * [WikiANN](https://huggingface.co/datasets/wikiann) has a Kyrgyz language part
-* [KyrgyzNER](https://github.com/Akyl-AI/KyrgyzNER): 1'499 news articles from the 24.KG news portal, 10'900 sentences, 39'075 entity mentions, 27 named entity classes
+* [KyrgyzNER](https://github.com/Akyl-AI/KyrgyzNER): 1,499 news articles from the 24.KG news portal, 10,900 sentences, 39,075 entity mentions, 27 named entity classes
 
 #### Text Classification
 * [Kyrgyz Multi-Label News Classification](https://github.com/alexeyev/kyrgyz-multi-label-topic-classification): training and evaluation code as well as the dataset of 1000/500 news documents are available
@@ -63,16 +67,20 @@ Also, a listed repository should be tagged as deprecated if:
 
 #### Machine-readable dictionaries
 * [Country names table](https://github.com/kyrgyz-nlp/country_names/blob/main/country_names_in_kyrgyz.tsv): Kyrgyz-Russian-English
-* Thesaurus [KyrSpell](http://kyrgyzorfo.narod.ru/) (however, unpacking it seems to be an action violating the license)
+* [KyrSpell](http://kyrgyzorfo.narod.ru/) — Kyrgyz orthographic thesaurus. **⚠️ License caveat:** the package's terms appear to prohibit unpacking/extracting its contents — review the license before doing so.
 * [Tatu Ylonen's enwiktionary-based dictionary](https://kaikki.org/dictionary/Kyrgyz/index.html) (also please see [the derived En-Ky Anki deck](https://ankiweb.net/shared/info/518863963) for language learners)
 
 #### Machine Translation
-* **Kyrgyz Language Seed Dataset OLDI**, 6'193 Kyrgyz-English sentences: [github, experiments](https://www2.statmt.org/wmt25/pdf/2025.wmt-1.84.pdf) | [huggingface PR](https://huggingface.co/datasets/openlanguagedata/oldi_seed/discussions/4) | [WMT2025 paper](https://www2.statmt.org/wmt25/pdf/2025.wmt-1.84.pdf)
-* **TurkLang-7**, 426'190 Kyrgyz-Russian pairs (not publicly available): [paper](https://ceur-ws.org/Vol-2780/paper8.pdf)
+* **Kyrgyz Language Seed Dataset OLDI**, 6,193 Kyrgyz-English sentences: [github, experiments](https://www2.statmt.org/wmt25/pdf/2025.wmt-1.84.pdf) | [huggingface PR](https://huggingface.co/datasets/openlanguagedata/oldi_seed/discussions/4) | [WMT2025 paper](https://www2.statmt.org/wmt25/pdf/2025.wmt-1.84.pdf)
+* **TurkLang-7**, 426,190 Kyrgyz-Russian pairs (not publicly available): [paper](https://ceur-ws.org/Vol-2780/paper8.pdf)
 * **X-WMT**, 500 Kyrgyz-English translated pairs: [github, data](https://github.com/turkic-interlingua/til-mt) | [paper](https://aclanthology.org/2021.wmt-1.60/)
-* **NLLBv1** (use with care, e.g. non-Kyrgyz sentences detected!), 21'360'637 Kyrgyz-English pairs: [data](https://opus.nlpl.eu/NLLB/en&ky/v1/NLLB)
-* **GoURMET project** data, 14'498 Kyrgyz-English and 23'017 Kyrgyz-Russian sentences
+* **NLLBv1** (use with care, e.g. non-Kyrgyz sentences detected!), 21,360,637 Kyrgyz-English pairs: [data](https://opus.nlpl.eu/NLLB/en&ky/v1/NLLB)
+* **GoURMET project** data, 14,498 Kyrgyz-English and 23,017 Kyrgyz-Russian sentences
 * FLORES+, professional translation, train:test 1012:997 sentences
+
+#### Speech <a name="speech-data"></a>
+* [Mozilla Common Voice — Kyrgyz](https://commonvoice.mozilla.org/ky): crowd-sourced read speech with transcripts, released under CC-0. Kyrgyz has been part of the project since 2019; recent releases are mirrored on Hugging Face under [`mozilla-foundation`](https://huggingface.co/mozilla-foundation) (e.g., [`common_voice_12_0`](https://huggingface.co/datasets/mozilla-foundation/common_voice_12_0)) and as community mirrors such as [`fsicoli/common_voice_22_0`](https://huggingface.co/datasets/fsicoli/common_voice_22_0).
+* [CSLT ASR data](http://index.cslt.org/mediawiki/index.php/ASR-nsfc-data): 128h speech, 163 speakers (100m/63f), audio transcriptions, lexicon at the word level. License must be requested by emailing `shiying@cslt.org` or `lilt@cslt.org`; original Kyrgyz texts are not shared (only the phonetic transcription).
 
 <a name="pretrained-models"></a>
 ## Pretrained models
@@ -87,6 +95,10 @@ Also, a listed repository should be tagged as deprecated if:
 * [kyrgyz-tokenizers-collection](https://huggingface.co/collections/metinovadilet/kyrgyz-tokenizers-collection-67bc7511855a6b996b94286c)  —  pre-trained subword tokenizers for Kyrgyz (by @metinovadilet)
 * [KyrgyzBert](https://huggingface.co/metinovadilet/KyrgyzBert) — BERT (6 encoders, 8 heads, hidden dim 512) trained on Kyrgyz texts (data is not available) **from scratch**  (by @metinovadilet)
 
+#### Speech <a name="speech-models"></a>
+* [AkylAI TTS Mini](https://huggingface.co/the-cramer-project/akylai-tts-mini) ([code](https://github.com/Akyl-AI/tts-mini)) — Matcha-TTS-based Kyrgyz text-to-speech model, trained on ~13h of speech / 7,000 samples; training scripts included.
+* [TurkicTTS](https://github.com/IS2AI/TurkicTTS) — multilingual TTS by IS2AI covering ten Turkic languages including Kyrgyz; built on top of KazakhTTS2.
+
 <a name="software"></a>
 ## Methods/Software
 
@@ -97,12 +109,14 @@ Also, a listed repository should be tagged as deprecated if:
 * [Kyrgyz for Apertium](https://github.com/apertium/apertium-kir/): morphological analysis and generation, PoS-tagging; installation script: [install_apertium_kir.sh](/install_apertium_kir.sh). A [much, much easier way](https://github.com/apertium/apertium-python/): `import apertium; apertium.installer.install_module("kir")`.
 * [DEPRECATED] [kymopl](https://github.com/dens-den/kymopl): Kyrgyz morphology in Prolog
 
-## Hate Speech detection
+#### Hate Speech detection <a name="hate-speech"></a>
 * [Jupyter Notebook for hate speech detection](https://github.com/kyrgyz-nlp/hate-speech-examples)
+
+#### Spelling and orthography <a name="spelling"></a>
+* [ӨҮҢизатор](https://github.com/kyrgyz-nlp/letter_replacer): a proof-of-concept letter-replacement Telegram bot demo, fixes incorrect usages of 'О', 'У', 'Н' ⇒ 'Ө', 'Ү', 'Ң'.
 
 #### Other
 * [Tilchi](https://github.com/IncorexLLC/Tilchi) electronic Russian-Kyrgyz dictionary, open source desktop application
-* [ӨҮҢизатор](https://github.com/kyrgyz-nlp/letter_replacer): a proof-of-concept letter replacement Telegram bot demo code, fixes incorrect usages of 'О','У', 'Н' => 'Ө', 'Ү','Ң'
 * [Number-to-words conversion](https://github.com/AzamatSoodaev/number-to-words-kg) (JavaScript) by [@AzamatSooldaev](https://github.com/AzamatSoodaev)
 * [Number-to-words conversion](https://github.com/timursaurus/sandar) (TypeScript) by [@timursaurus](https://github.com/timursaurus)
 * [Telegram bot for Kyrgyz morphological analysis](https://github.com/sasha-kir/kyrgyz_parser) by [@sasha-kir](https://github.com/sasha-kir) based on [Apertium data for Kyrgyz](https://github.com/apertium/apertium-kir/)
@@ -118,8 +132,7 @@ Also, a listed repository should be tagged as deprecated if:
 * A useful [Apertium](https://wiki.apertium.org/wiki/Kyrgyz)'s list of tools and other resources
 * Online dictionaries and other useful resources on [el-sozduk.kg](https://el-sozduk.kg/)
 * [Turkic languages-related resources](http://ddi.itu.edu.tr/en/toolsandresources) compiled by Dr. Gülşen Eryiğit and her team at Istanbul Technical University 
-* [Data prepared by CSLT](http://index.cslt.org/mediawiki/index.php/ASR-nsfc-data): 128h speech, 163 speakers (100m/63f), transcription of the speech audio, lexicon in the word level; [link](https://pan.baidu.com/s/18jxLKo4YRWH5K3GWPWmGXQ) (requires extra steps, quote: `You should ask for license before you can download the datasets. Please send Email to shiying@cslt.org or lilt@cslt.org to get the license.`). Note that the original texts in Kyrgyz are not available, only the phonetic transcription is shared.
 
-## Contributions to this list
+## Contributions to this list <a name="contributions"></a>
 
 [@golden-ratio](https://github.com/golden-ratio)
